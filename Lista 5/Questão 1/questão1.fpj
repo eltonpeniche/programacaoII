@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Project>
+	<Libs Value=""/>
+	<Flags Value=""/>
+	<Target Value="questão1.exe"/>
+	<CommandLine Value=""/>
+	<CompilerOptions Value="-Wall -s"/>
+	<DeleteObjectsBefore Value="Yes"/>
+	<DeleteObjectsAfter Value="Yes"/>
+	<DeleteMakefileAfter Value="Yes"/>
+	<DeleteResourcesAfter Value="Yes"/>
+	<EnableTheme Value="No"/>
+	<RequiresAdmin Value="No"/>
+	<CompilerType Value="CPP"/>
+	<AppType Value="CONSOLE"/>
+	<Files>
+		<File Name="main.cpp"/>
+		<File Name="pessoa.h"/>
+		<File Name="pessoa.cpp"/>
+		<File Name="pessoafisica.h"/>
+		<File Name="pessoafisica.cpp"/>
+		<File Name="pessoajuridica.cpp"/>
+		<File Name="pessoajuridica.h"/>
+		<File Name="funcionario.h"/>
+		<File Name="funcionario.cpp"/>
+		<File Name="cliente.h"/>
+		<File Name="cliente.cpp"/>
+		<File Name="empresa.h"/>
+		<File Name="empresa.cpp"/>
+	</Files>
+</Project>
