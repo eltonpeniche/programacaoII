@@ -11,7 +11,6 @@ Empresa::~Empresa(){
 }
 
 void Empresa::setListaCliente(string){
-	
 }
 
 void Empresa::setListaFunc(string){
@@ -26,8 +25,8 @@ string Empresa::getListaFunc(){
 	
 }
 
-void Empresa::addLista(string){
-	
+void Empresa::addLista(Funcionario &func){
+	listaFunc.push_back(func);
 }   	
 
 void Empresa::classe(){
