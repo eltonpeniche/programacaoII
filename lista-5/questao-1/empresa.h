@@ -6,21 +6,16 @@
 #include "funcionario.h"
 #include <vector>
 
-class Empresa:public PessoaJuridica{
+class Empresa:public PessoaJuridica {
 	private:
 		vector <Cliente> listaCliente;
 		vector <Funcionario> listaFunc;	
 	public:
 		Empresa();
-		Empresa(string,int,string,string,string,string);
-		virtual~Empresa();
-		void setListaCliente(string);
-		void setListaFunc(string);
-		string getListaCliente();
-		string getListaFunc();
-		void addLista(Cliente);
+		Empresa(string,int,string,string, Cliente &, Funcionario &);
+		virtual ~Empresa();
+		void addLista(Cliente &);
 		void addLista(Funcionario &);   	
-		virtual void classe();
 		virtual void print();
 };
 

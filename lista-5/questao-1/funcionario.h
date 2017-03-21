@@ -23,5 +23,9 @@ class Funcionario: public PessoaFisica{
 		int getHrsTrabalho();
 		virtual void classe();
 		void print();
+		float calcularSalBruto()
+		{
+			return (salBase * hrsTrabalho); 
+		}
 };
 #endif
