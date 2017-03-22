@@ -6,7 +6,7 @@
 #include "funcionario.h"
 #include <vector>
 
-class Empresa:public PessoaJuridica {
+class Empresa: public PessoaJuridica {
 	private:
 		vector <Cliente> listaCliente;
 		vector <Funcionario> listaFunc;	
@@ -16,7 +16,7 @@ class Empresa:public PessoaJuridica {
 		virtual ~Empresa();
 		void addLista(Cliente &);
 		void addLista(Funcionario &);   	
-		virtual void print();
+		void print();
 };
 
 #endif
