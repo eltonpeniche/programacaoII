@@ -8,7 +8,6 @@ using namespace std;
 class Pessoa{
 	protected:
 		string nome;
-	
 	public:
 		Pessoa();
 		Pessoa(string);
